@@ -15,8 +15,8 @@ func handlerFunc(w http.ResponseWriter, r *http.Request) {
 
 	if r.URL.Path == "/" {
 		fmt.Fprint(w, `<body style="background-color:#000000">`)
-		fmt.Fprint(w, `<center><h1 style="color:#FFFFFF">Selamat datang di Semesta System Administrator</center></h1>`)
-		fmt.Fprint(w, `<center><img src="https://maukuliah.id/assets/img/semesta/logo-semesta-light.png" alt="Gambar"></center>`)
+		fmt.Fprint(w, `<center><h1 style="color:#FFFFFF">Hello World, this is me, Rakha Febryza Rasendriya</center></h1>`)
+		fmt.Fprint(w, `<center><img src="https://i.pinimg.com/236x/d4/3a/16/d43a16c96a0211602a173245424febd7.jpg" alt="Gambar"></center>`)
 		fmt.Fprint(w, `</body>`)
 	} else if r.URL.Path == "/aboutus" {
 		err := godotenv.Load(".env")

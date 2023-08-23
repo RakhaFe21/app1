@@ -2,4 +2,4 @@ Dockerfile.multistage
 .git/
 .gitignore
 README.md
-.env.example
+
